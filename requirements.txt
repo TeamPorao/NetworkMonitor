@@ -1,0 +1,6 @@
+json == 2.0.9
+pyshark 
+requests == 2.25.1
+tempfile ==
+yara == 1.7.7
+re == 2.2.1

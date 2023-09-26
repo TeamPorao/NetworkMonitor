@@ -1,0 +1,166 @@
+body, html {
+  margin: 0; /* Remova as margens padrão do corpo e do HTML */
+  padding: 0; /* Remova qualquer padding padrão */
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #383737;
+}
+.login-page {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  background: #000000;
+  border-radius: 10px;
+  width: 590px;
+  height: 635px;
+  position: absolute;
+  left: 665px;
+  top: 247px;
+  box-shadow: 0px 8px 53px 0px rgba(0, 120, 240, 0.25),
+    0px 4px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.button {
+  width: 288.09px;
+  height: 51.22px;
+  position: absolute;
+  left: 816px;
+  top: 650px;
+  background-color: #000000;
+}
+.rectangle-5 {
+  background: rgba(0, 120, 240, 0.1);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #0078f0;
+  border-width: 1px;
+  width: 288.09px;
+  height: 55.22px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: var(--azul-default, #0078f0);
+  text-align: center;
+  font: 500 15.36px "Roboto", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.login2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 26px "Public Sans", sans-serif;
+  position: absolute;
+  left: 925px;
+  top: 330px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.senha {
+  width: 289px;
+  height: 33px;
+  position: absolute;
+  left: 815px;
+  top: 558px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.senha2 {
+  background-color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font: 400 17.93px "Public Sans", sans-serif;
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 285px;
+  height: 34px;
+  display: flex;
+  border-radius: 5px;
+  border: 1px;
+}
+.filled-action-visibility-off {
+  border-radius: 10px;
+  position: absolute;
+  left: 257px;
+  top: 5px;
+  overflow: visible;
+}
+.image-1 {
+  border-radius: 256px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  width: 100px;
+  height: 102px;
+  position: absolute;
+  left: 910px;
+  top: 198px;
+}
+.image-2 {
+  width: 128px;
+  height: 52px;
+  position: absolute;
+  left: 1122px;
+  top: 822px;
+}
+.usuario {
+  width: 289px;
+  height: 34px;
+  position: absolute;
+  left: 815px;
+  top: 467px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.usuario2 {
+  background-color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font: 400 17.93px "Public Sans", sans-serif;
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 285px;
+  height: 34px;
+  display: flex;
+  border-radius: 5px;
+  border: 1px;
+  
+
+}
+.filled-social-person {
+  border-radius: 10px;
+  position: absolute;
+  left: 257px;
+  top: 5px;
+  overflow: visible;
+}
+.esqueceu-sua-senha {
+  width: 267px;
+  height: 26px;
+  position: absolute;
+  left: 820px;
+  top: 730px;
+}
+.esqueceu-sua-senha2 {
+  color: rgba(136, 134, 134, 0.44);
+  text-align: center;
+  font: 400 17px "Public Sans", sans-serif;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  width: 267px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
