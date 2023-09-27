@@ -37,8 +37,8 @@ def apply_yara_rules(hex_dump):
         return False
 
 def main():
-    pcap_file = '/home/nine/Downloads/Challenge_FINAL/filtered_data.pcap'
-    output_file = '/home/nine/Downloads/Challenge_FINAL/frontend/Desktop/js-desktop/dados.json'
+    pcap_file = '/home/porao/NetworkMonitor/filtered_data.pcap'
+    output_file = '/home/porao/NetworkMonitor/frontend/Desktop/js-desktop/dados.json'
 
     if not os.path.exists(pcap_file):
         print(f"The file {pcap_file} does not exist.")

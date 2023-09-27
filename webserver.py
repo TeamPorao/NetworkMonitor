@@ -3,7 +3,7 @@ import webbrowser
 import os
 
 # Set the path to the "frontend" directory in your script folder
-frontend_dir = os.path.join(os.path.dirname(__file__), "frontend")
+frontend_dir = os.path.join(os.path.dirname(__file__), "/home/porao/NetworkMonitor/frontend")
 # Change to the "frontend" directory
 os.chdir(frontend_dir)
 # Create a simple HTTP server to serve the "frontend" directory

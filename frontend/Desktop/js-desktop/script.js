@@ -117,8 +117,16 @@ function fetchDataAndUpdate() {
                 if (item.malware_detected) {
                     malwareCount++;
                     uniqueAffectedHosts.add(item.destination_ip);
+                    const malwareRow = document.createElement('tr');
+                    malwareRow.innerHTML = `
+                        <td>${item.filename}</td>
+                        <td>${item.malware_detected ? 'Sim' : 'Não'}</td>
+                    `;
+            
+                    tableBody2.appendChild(malwareRow);
                 }
             }
+
             // Adicionar apenas os últimos 4 registros
             for (let i = Math.max(0, data.length - 4); i < data.length; i++) {
                 const item = data[i];
@@ -129,16 +137,8 @@ function fetchDataAndUpdate() {
                     <td>${item.destination_ip}</td>
                 `;
                 tableBody.appendChild(row);
-
-                if (item.malware_detected) {
-                    const malwareRow = document.createElement('tr');
-                    malwareRow.innerHTML = `
-                        <td>${item.filename}</td>
-                        <td>${item.malware_detected ? 'Sim' : 'Não'}</td>
-                    `;
-                    tableBody2.appendChild(malwareRow);
-                }
             }
+            
             malwareCountElement.textContent = `${malwareCount}`;
             totalFilesCheckedElement.textContent = `${totalFilesChecked}`
             totalHostsAffectedElement.textContent = `${uniqueAffectedHosts.size}`;

@@ -1,1 +1,44 @@
-[]
+[
+    {
+        "filename": "capture_2023-09-26_03-17-56.porao",
+        "source_ip": "192.168.57.202",
+        "destination_ip": "192.168.57.24",
+        "malware_detected": false
+    },
+    {
+        "filename": "capture_2023-09-26_03-18-03.porao",
+        "source_ip": "192.168.57.202",
+        "destination_ip": "192.168.57.24",
+        "malware_detected": true
+    },
+    {
+        "filename": "capture_2023-09-26_03-18-03.porao",
+        "source_ip": "192.168.57.202",
+        "destination_ip": "192.168.57.24",
+        "malware_detected": true
+    },
+    {
+        "filename": "capture_2023-09-26_03-18-10.porao",
+        "source_ip": "192.168.57.202",
+        "destination_ip": "192.168.57.24",
+        "malware_detected": false
+    },
+    {
+        "filename": "capture_2023-09-26_03-18-16.porao",
+        "source_ip": "192.168.57.202",
+        "destination_ip": "192.168.57.24",
+        "malware_detected": false
+    },
+    {
+        "filename": "capture_2023-09-26_03-18-22.porao",
+        "source_ip": "192.168.57.202",
+        "destination_ip": "192.168.57.24",
+        "malware_detected": true
+    },
+    {
+        "filename": "capture_2023-09-26_03-18-29.porao",
+        "source_ip": "192.168.57.202",
+        "destination_ip": "192.168.57.24",
+        "malware_detected": false
+    }
+]

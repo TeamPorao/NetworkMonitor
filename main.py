@@ -20,8 +20,8 @@ def start_packet_capture(interface, output_filename, capture_count=None, capture
         process.terminate()
 
 def main():
-    network_interface = "wlp2s0"  # Replace with the correct interface name
-    output_filename = "./captured_data.pcap"
+    network_interface = "eth0"  # Replace with the correct interface name
+    output_filename = "/home/porao/NetworkMonitor/captured_data.pcap"
     capture_count = None  # Set to the desired packet count or None
     capture_duration = None  # Set to the desired capture duration in seconds or None
 
