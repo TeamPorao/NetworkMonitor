@@ -36,6 +36,10 @@
 <code>sudo chmod +x startup.sh</code><br>
 <code>sudo bash ./startup.sh</code><br>
 
+<h2>Aviso!</h2>
+
+<p>Este projeto é apenas um protótipo e está em desenvolvimento. Iremos aprimorar a regra da Yara, para assim melhorar a acurácia dos resultados.</p>
+
 <h2>Licença</h2>
 
 <p>Este projeto é protegido por direitos autorais e está disponível apenas para uso não-comercial. Consulte o arquivo <a href="LICENSE">LICENSE</a> para obter detalhes sobre os termos da licença. Lembre-se de que é obrigatório fornecer a devida atribuição se você desejar utilizar este software para fins não-comerciais.</p>
