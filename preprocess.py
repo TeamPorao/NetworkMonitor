@@ -1,7 +1,7 @@
 import subprocess
 
-input_pcap_file = "/home/porao/NetworkMonitor/captured_data.pcap"
-output_pcap_file = "/home/porao/NetworkMonitor/filtered_data.pcap"
+input_pcap_file = "./captured_data.pcap"
+output_pcap_file = "./filtered_data.pcap"
 display_filter = "media.type"
 try:
     subprocess.run(["tshark", "-r", input_pcap_file, "-w", output_pcap_file, "-Y", display_filter],check=True)

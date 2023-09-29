@@ -1,14 +1,15 @@
 #!/bin/bash
 
-# Start the web server (webserver.py)
+# Inicia o servidor web "webserver.py"
 python3 ./webserver.py &
-# Start the packet capture (main.py)
+# Inicia a captura de pacotes "main.py"
 python3 ./main.py &
-# Schedule preprocess.py to run every 2 minutes using cron
-(crontab -l ; echo "*/2 * * * * sudo /usr/bin/python3 /home/porao/NetworkMonitor/preprocess.py") | crontab -
-# Schedule yara_analyzer.py to run every 2 minutes using cron
-(crontab -l ; echo "*/2 * * * * sudo /usr/bin/python3 /home/porao/NetworkMonitor/yara_analyzer.py") | crontab -
-# Keep the script running to maintain the web server and packet capture
+
+# Programa o script para executar de 2 em 2 minutos.
+(crontab -l ; echo "*/2 * * * * sudo /usr/bin/python3 /diretorio/onde/instalou/NetworkMonitor/preprocess.py") | crontab -
+(crontab -l ; echo "*/2 * * * * sudo /usr/bin/python3 /diretorio/onde/instalou/NetworkMonitor/yara_analyzer.py") | crontab -
+
+# Continua o script executando e mantém o servidor web e a captura de pacotes.
 while true; do
     sleep 1
 done
