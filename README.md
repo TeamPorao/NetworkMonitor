@@ -32,9 +32,9 @@
 
 <p>Para executar a ferramenta automaticamente (isso também inicia o webserver.py com o dashboard), siga estes passos:</p>
 
-<code>cd NetworkMonitor</code>
-<code>sudo chmod +x startup.sh</code>
-<code>sudo bash ./startup.sh</code>
+<code>cd NetworkMonitor</code><br>
+<code>sudo chmod +x startup.sh</code><br>
+<code>sudo bash ./startup.sh</code><br>
 
 <h2>Licença</h2>
 
